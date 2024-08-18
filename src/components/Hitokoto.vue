@@ -36,12 +36,12 @@ import debounce from "@/utils/debounce.js";
 const store = mainStore();
 
 // 开启音乐面板按钮显隐
-const openMusicShow = ref(false);
+const openMusicShow = ref(true);
 
 // 一言数据
 const hitokotoData = reactive({
-  text: "这里应该显示一句话",
-  from: "無名",
+  text: "十寸光阴也换不来一寸金",
+  from: "铁皮软糖乐队",
 });
 
 // 获取一言数据
@@ -58,8 +58,8 @@ const getHitokotoData = async () => {
         fill: "#efefef",
       }),
     });
-    hitokotoData.text = "这里应该显示一句话";
-    hitokotoData.from = "無名";
+    hitokotoData.text = "十寸光阴也换不来一寸金";
+    hitokotoData.from = "铁皮软糖乐队";
   }
 };
 

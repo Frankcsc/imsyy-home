@@ -1,5 +1,5 @@
 <template>
-  <div class="more-content">下辈子我再好好过</div>
+  <div class="more-content"> </div>
 </template>
 
 <style lang="scss" scoped>
